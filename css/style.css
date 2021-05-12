@@ -349,7 +349,7 @@ body {
   margin-left: 35px;
 }
 .navbar > ul {
-  margin-right: 139px;
+  margin-right: 124px;
 }
 .header-btn-sign-in {
   font-weight: 500;
@@ -364,6 +364,7 @@ body {
   padding: 13px 45px;
   border: 1px solid #f53855;
   border-radius: 50px;
+  font-family: "Rubik";
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;

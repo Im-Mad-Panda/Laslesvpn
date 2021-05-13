@@ -411,14 +411,15 @@ border-radius: 10px;
 .statistics-section, .statistics-box{
 display: flex;
 align-items: center;
+justify-content: space-between;
 }
-/* .statistics-box::after :nth-child(n + 1) {
-  flex-direction: column;
+.statistics-box:nth-child(n + 1)::after  {
+  
   content: "";
   width: 30px;
   display: block;
-  border-bottom: 2px solid #202336;
-} */
+  border: 2px solid #EEEFF2;
+}
 .statistics-img{
 margin-left: 90px;
 }

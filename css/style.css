@@ -406,17 +406,18 @@ border-radius: 10px;
 /*=====================statistics STYLES START======================*/
 .statistics{
   padding-top: 130px;
-  padding-bottom: 130px;
+  padding-bottom: 47px;
 }
 .statistics-section, .statistics-box{
 display: flex;
 align-items: center;
 justify-content: space-between;
+border-radius: 10px;
 }
 .statistics-box:nth-child(n + 1)::after  {
-  
+  width: 1px;
+  height: 125px;
   content: "";
-  width: 30px;
   display: block;
   border: 2px solid #EEEFF2;
 }
@@ -428,6 +429,8 @@ margin-left: 90px;
   flex-direction: column;
   margin-left: 36px;
   margin-right: 130px;
+  margin-top: 67px;
+  margin-bottom: 67px;
 }
 .statistics-number{
   font-weight: 700;
@@ -443,9 +446,77 @@ color: #4F5665;
 }
 /*=====================statistics STYLES END======================*/
 /*=====================BLOG STYLES START======================*/
-
+.blog {
+  padding-top: 47px;
+  padding-bottom: 95px;
+}
+.blog-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-img {
+  width: 508px;
+  height: auto;
+  margin-right: 200px;
+}
+.blog-tik{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.blog-title {
+  font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+color: #0B132A;
+  margin-bottom: 20px;
+}
+.blog-text {
+  font-weight: 400;
+  font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+  margin-bottom: 20px;
+}
+.functions{
+  font-weight: 400;
+  font-size: 14px;
+line-height: 30px;
+color: #4F5665;
+margin-left: 10px;
+}
 /*=====================BLOG STYLES END======================*/
 /*=====================SERVICES STYLES START======================*/
+.services {
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+.services-content {
+  display: flex;
+align-items: center;
+  flex-direction: column;
+}
+.services-title {
+  font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+color: #0B132A;
+margin-bottom: 20px;
+}
+.services-subtitle{
+  width: 530px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+margin-bottom: 60px;
+}
+.services-img{
+  width: 145px;
+  height: auto;
+}
 
 /*=====================SERVICES STYLES END======================*/
 /*=====================BLOG guides STYLES START======================*/

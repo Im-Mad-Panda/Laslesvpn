@@ -1,137 +1,164 @@
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nMrXyi0A.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nMrXyi0A.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nFrXyi0A.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nFrXyi0A.woff2)
+    format("woff2");
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* hebrew */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nDrXyi0A.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nDrXyi0A.woff2)
+    format("woff2");
   unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nPrXyi0A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nPrXyi0A.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nMrXyi0A.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nMrXyi0A.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nFrXyi0A.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nFrXyi0A.woff2)
+    format("woff2");
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* hebrew */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nDrXyi0A.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nDrXyi0A.woff2)
+    format("woff2");
   unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nPrXyi0A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nPrXyi0A.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nMrXyi0A.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nMrXyi0A.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nFrXyi0A.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nFrXyi0A.woff2)
+    format("woff2");
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* hebrew */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nDrXyi0A.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nDrXyi0A.woff2)
+    format("woff2");
   unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nPrXyi0A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nPrXyi0A.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
 /*=====================CSS RESET START======================*/
@@ -358,22 +385,22 @@ body {
   justify-content: space-between;
   position: relative;
 }
-.hero-content{
+.hero-content {
   width: 550px;
 }
 .hero-title {
   font-weight: 500;
-font-size: 50px;
-line-height: 70px;
-color: #0B132A;
-margin-bottom: 20px;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+  margin-bottom: 20px;
 }
 .hero-text {
   font-weight: 400;
   font-size: 16px;
-line-height: 30px;
-color: #4F5665;
-margin-bottom: 50px;
+  line-height: 30px;
+  color: #4f5665;
+  margin-bottom: 50px;
 }
 .hero-subtitle::after {
   margin-top: 20px;
@@ -386,17 +413,17 @@ margin-bottom: 50px;
   width: 611px;
   height: auto;
   position: absolute;
-    right: -60px;
-    bottom: -25px;
+  right: -60px;
+  bottom: -25px;
 }
 .header-btn-exp {
   font-weight: 700;
   padding: 18px 78px;
   font-size: 16px;
-line-height: 25px;
-color: #FFFFFF;
-background: #F53838;
-border-radius: 10px;
+  line-height: 25px;
+  color: #ffffff;
+  background: #f53838;
+  border-radius: 10px;
 }
 .header-btn-exp:hover {
   color: #000000;
@@ -404,27 +431,28 @@ border-radius: 10px;
 }
 /*=====================HERO STYLES END======================*/
 /*=====================statistics STYLES START======================*/
-.statistics{
+.statistics {
   padding-top: 130px;
   padding-bottom: 47px;
 }
-.statistics-section, .statistics-box{
-display: flex;
-align-items: center;
-justify-content: space-between;
-border-radius: 10px;
+.statistics-section,
+.statistics-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
 }
-.statistics-box:nth-child(n + 1)::after  {
+.statistics-box:nth-child(n + 1)::after {
   width: 1px;
   height: 125px;
   content: "";
   display: block;
-  border: 2px solid #EEEFF2;
+  border: 2px solid #eeeff2;
 }
-.statistics-img{
-margin-left: 90px;
+.statistics-img {
+  margin-left: 90px;
 }
-.statistics-content{
+.statistics-content {
   display: flex;
   flex-direction: column;
   margin-left: 36px;
@@ -432,17 +460,17 @@ margin-left: 90px;
   margin-top: 67px;
   margin-bottom: 67px;
 }
-.statistics-number{
+.statistics-number {
   font-weight: 700;
   font-size: 25px;
   line-height: 30px;
-  color: #0B132A;
+  color: #0b132a;
 }
-.statistics-name{
+.statistics-name {
   font-weight: 400;
   font-size: 20px;
-line-height: 30px;
-color: #4F5665;
+  line-height: 30px;
+  color: #4f5665;
 }
 /*=====================statistics STYLES END======================*/
 /*=====================BLOG STYLES START======================*/
@@ -460,31 +488,31 @@ color: #4F5665;
   height: auto;
   margin-right: 200px;
 }
-.blog-tik{
+.blog-tik {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
 .blog-title {
   font-weight: 500;
-font-size: 35px;
-line-height: 50px;
-color: #0B132A;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
   margin-bottom: 20px;
 }
 .blog-text {
   font-weight: 400;
   font-size: 16px;
-line-height: 30px;
-color: #4F5665;
+  line-height: 30px;
+  color: #4f5665;
   margin-bottom: 20px;
 }
-.functions{
+.functions {
   font-weight: 400;
   font-size: 14px;
-line-height: 30px;
-color: #4F5665;
-margin-left: 10px;
+  line-height: 30px;
+  color: #4f5665;
+  margin-left: 10px;
 }
 /*=====================BLOG STYLES END======================*/
 /*=====================SERVICES STYLES START======================*/
@@ -494,28 +522,54 @@ margin-left: 10px;
 }
 .services-content {
   display: flex;
-align-items: center;
+  align-items: center;
   flex-direction: column;
 }
 .services-title {
   font-weight: 500;
-font-size: 35px;
-line-height: 50px;
-color: #0B132A;
-margin-bottom: 20px;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+  margin-bottom: 20px;
 }
-.services-subtitle{
+.services-subtitle {
   width: 530px;
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-line-height: 30px;
-color: #4F5665;
-margin-bottom: 60px;
+  line-height: 30px;
+  color: #4f5665;
+  margin-bottom: 60px;
 }
-.services-img{
+.services-img {
   width: 145px;
   height: auto;
+  margin: 79px 92px 30px 92px;
+}
+.services-box{
+  border: 2px solid #DDDDDD;
+border-radius: 10px;
+}
+.services-title-box {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+}
+
+.services-functions-box{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.services-section-box{
+  display: flex;
+  justify-content: space-between;
+}
+.blog-functions{
+display: flex;
+flex-direction: column;
 }
 
 /*=====================SERVICES STYLES END======================*/

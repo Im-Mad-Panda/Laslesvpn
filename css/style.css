@@ -372,6 +372,7 @@ body {
 }
 .header-btn-sign-up:hover {
   color: #0b132a;
+  transition: 0.3s;
 }
 /*=====================HEADER STYLES END======================*/
 /*=====================HERO STYLES START======================*/
@@ -541,31 +542,59 @@ body {
   color: #4f5665;
   margin-bottom: 60px;
 }
+.services-section-box{
+  display: flex;
+  justify-content: space-between;
+}
 .services-img {
   width: 145px;
   height: auto;
   margin: 79px 92px 30px 92px;
 }
+.services-functions-box{
+  margin-bottom: 30px;
+  }
 .services-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   border: 2px solid #DDDDDD;
 border-radius: 10px;
+}
+.services-functions{
+  margin-bottom: 130px;
 }
 .services-title-box {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
   text-align: center;
-  color: #0b132a;
+  color: #0b132a;  
 }
-
-.services-functions-box{
-display: flex;
-align-items: center;
-flex-direction: column;
+.functions-title-box{
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+color: #0B132A;
+margin-bottom: 20px;
 }
-.services-section-box{
-  display: flex;
-  justify-content: space-between;
+.functions-btn{
+  padding: 13px 63px;
+  font-weight: 700;
+  font-size: 16px;
+line-height: 19px;
+color: #F53838;
+border: 2px solid #F53838;
+box-sizing: border-box;
+border-radius: 50px;
+margin-bottom: 50px;
+}
+.functions-btn:hover
+{
+  color: #fff;
+  background: #F53838;
+border-radius: 50px;
+transition: 0.3s;
 }
 .blog-functions{
 display: flex;

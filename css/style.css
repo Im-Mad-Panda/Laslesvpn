@@ -359,6 +359,7 @@ body {
 }
 .header-btn-sign-in:hover {
   color: #f53855;
+  transition: 0.3s;
 }
 .header-btn-sign-up {
   padding: 13px 45px;
@@ -373,6 +374,7 @@ body {
 .header-btn-sign-up:hover {
   color: #0b132a;
   transition: 0.3s;
+  background: #f53838;
 }
 /*=====================HEADER STYLES END======================*/
 /*=====================HERO STYLES START======================*/
@@ -429,6 +431,7 @@ body {
 .header-btn-exp:hover {
   color: #000000;
   transition: 0.3s;
+  box-shadow: 0px 30px 54px -6px rgb(245 56 56 / 55%);
 }
 /*=====================HERO STYLES END======================*/
 /*=====================statistics STYLES START======================*/
@@ -436,30 +439,28 @@ body {
   padding-top: 130px;
   padding-bottom: 47px;
 }
-.statistics-section,
-.statistics-box {
+.statistics-section{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 40px 0;
   border-radius: 10px;
+  box-shadow: 0px 106px 114px -6px rgb(13 16 37 / 7%);
 }
-.statistics-box:nth-child(n + 1)::after {
-  width: 1px;
-  height: 125px;
-  content: "";
-  display: block;
-  border: 2px solid #eeeff2;
+.statistics-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  padding: 33px 0;
 }
-.statistics-img {
-  margin-left: 90px;
+.statistics-box:not(:last-child) {
+  border-right: 2px solid #EEEFF2;
 }
 .statistics-content {
   display: flex;
   flex-direction: column;
   margin-left: 36px;
-  margin-right: 130px;
-  margin-top: 67px;
-  margin-bottom: 67px;
 }
 .statistics-number {
   font-weight: 700;

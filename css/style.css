@@ -570,6 +570,10 @@ body {
 .services-img {
   width: 145px;
   height: auto;
+  margin-bottom: 30px;
+}
+.services-functions-box{
+  margin-bottom: 30px;
 }
 .services-functions{
   display: flex;

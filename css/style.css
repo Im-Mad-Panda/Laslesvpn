@@ -439,7 +439,7 @@ body {
   padding-top: 130px;
   padding-bottom: 47px;
 }
-.statistics-section{
+.statistics-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -447,7 +447,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 106px 114px -6px rgb(13 16 37 / 7%);
 }
-.statistics-box{
+.statistics-box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -455,7 +455,7 @@ body {
   padding: 33px 0;
 }
 .statistics-box:not(:last-child) {
-  border-right: 2px solid #EEEFF2;
+  border-right: 2px solid #eeeff2;
 }
 .statistics-content {
   display: flex;
@@ -493,7 +493,16 @@ body {
 .blog-tik {
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
   margin-bottom: 15px;
+}
+.blog-tik::after {
+  content: "";
+  background: url("../img/tick.svg") no-repeat 0 0 / cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
 }
 .blog-title {
   font-weight: 500;
@@ -514,8 +523,8 @@ body {
   font-size: 14px;
   line-height: 30px;
   color: #4f5665;
-  margin-left: 10px;
 }
+
 /*=====================BLOG STYLES END======================*/
 /*=====================SERVICES STYLES START======================*/
 .services {
@@ -543,63 +552,79 @@ body {
   color: #4f5665;
   margin-bottom: 60px;
 }
-.services-section-box{
+.services-section {
   display: flex;
   justify-content: space-between;
+}
+.services-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  padding: 80px 70px 50px 70px;
+}
+.services-box:hover{
+  border: 2px solid #F53838;
 }
 .services-img {
   width: 145px;
   height: auto;
-  margin: 79px 92px 30px 92px;
-}
-.services-functions-box{
-  margin-bottom: 30px;
-  }
-.services-box{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  border: 2px solid #DDDDDD;
-border-radius: 10px;
 }
 .services-functions{
-  margin-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 50px;
+}
+.functions-blog-tik {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+.functions-blog-tik::after {
+  content: "";
+  background: url("../img/tick-box.svg") no-repeat 0 0 / cover;
+  width: 13px;
+  height: 9px;
+  margin-right: 25px;
 }
 .services-title-box {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
   text-align: center;
-  color: #0b132a;  
+  color: #0b132a;
 }
-.functions-title-box{
+.functions-title-box {
   font-weight: 500;
   font-size: 25px;
   line-height: 30px;
-color: #0B132A;
-margin-bottom: 20px;
+  color: #0b132a;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.functions-btn{
+.functions-btn {
   padding: 13px 63px;
   font-weight: 700;
   font-size: 16px;
-line-height: 19px;
-color: #F53838;
-border: 2px solid #F53838;
-box-sizing: border-box;
-border-radius: 50px;
-margin-bottom: 50px;
+  line-height: 19px;
+  color: #f53838;
+  border: 2px solid #f53838;
+  box-sizing: border-box;
+  border-radius: 50px;
 }
-.functions-btn:hover
-{
+.functions-btn:hover {
   color: #fff;
-  background: #F53838;
-border-radius: 50px;
-transition: 0.3s;
+  background: #f53838;
+  border-radius: 50px;
+  transition: 0.3s;
 }
-.blog-functions{
-display: flex;
-flex-direction: column;
+.blog-functions {
+  display: flex;
+  flex-direction: column;
 }
 
 /*=====================SERVICES STYLES END======================*/

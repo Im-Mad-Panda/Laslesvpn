@@ -495,7 +495,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.functions-features > li > a{
+.functions-features > li > a {
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -531,7 +531,7 @@ body {
 /*=====================plan STYLES START======================*/
 .plan {
   padding-top: 155px;
-  padding-bottom: 155px;
+  padding-bottom: 100px;
 }
 .plan-content {
   display: flex;
@@ -566,8 +566,8 @@ body {
   border-radius: 10px;
   padding: 80px 70px 50px 70px;
 }
-.plan-box:hover{
-  border: 2px solid #F53838;
+.plan-box:hover {
+  border: 2px solid #f53838;
 }
 .plan-img {
   width: 145px;
@@ -582,10 +582,10 @@ body {
   text-align: center;
   margin-bottom: 25px;
 }
-.plan-package-box{
+.plan-package-box {
   margin-bottom: 30px;
 }
-.plan-blog-tik{
+.plan-blog-tik {
   flex-grow: 1;
   margin-bottom: 50px;
 }
@@ -595,13 +595,12 @@ body {
   flex-direction: row-reverse;
   justify-content: flex-end;
   font-weight: 400;
-font-size: 14px;
-line-height: 30px;
-color: #4F5665;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
   margin-bottom: 15px;
-    
 }
-.plan-blog-tik >li > a::after {
+.plan-blog-tik > li > a::after {
   content: "";
   background: url("../img/tick-box.svg") no-repeat 0 0 / cover;
   width: 13px;
@@ -634,9 +633,50 @@ color: #4F5665;
   box-shadow: 0px 30px 54px -6px rgb(245 56 56 / 55%);
 }
 /*=====================plan STYLES END======================*/
-/*=====================BLOG guides STYLES START======================*/
-
-/*=====================BLOG guides STYLES END======================*/
+/*=====================Network guides STYLES START======================*/
+.network {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.network-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 310px;
+}
+.network-title {
+  width: 380px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+.network-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+  margin-bottom: 155px;
+}
+.network-img {
+  width: 1060px;
+  height: auto;
+  margin-bottom: 80px;
+}
+.network-global {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.network-global img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+/*=====================Network guides STYLES END======================*/
 /*=====================testimonials STYLES START======================*/
 
 /*=====================testimonials STYLES END======================*/

@@ -475,57 +475,58 @@ body {
   color: #4f5665;
 }
 /*=====================statistics STYLES END======================*/
-/*=====================BLOG STYLES START======================*/
-.blog {
+/*=====================functions STYLES START======================*/
+.functions {
   padding-top: 47px;
   padding-bottom: 95px;
 }
-.blog-media {
+.functions-media {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.blog-img {
+.functions-img {
   width: 508px;
   height: auto;
   margin-right: 200px;
 }
-.blog-tik {
+.functions-features {
+  display: flex;
+  flex-direction: column;
+}
+.functions-features > li > a{
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
   justify-content: flex-end;
   margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
 }
-.blog-tik::after {
+.functions-features > li > a::after {
   content: "";
   background: url("../img/tick.svg") no-repeat 0 0 / cover;
   width: 20px;
   height: 20px;
   margin-right: 12px;
 }
-.blog-title {
+.functions-title {
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
   color: #0b132a;
   margin-bottom: 20px;
 }
-.blog-text {
+.functions-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #4f5665;
   margin-bottom: 20px;
 }
-.functions {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-  color: #4f5665;
-}
-
-/*=====================BLOG STYLES END======================*/
+/*=====================functions STYLES END======================*/
 /*=====================SERVICES STYLES START======================*/
 .services {
   padding-top: 155px;
@@ -626,10 +627,7 @@ body {
   border-radius: 50px;
   transition: 0.3s;
 }
-.blog-functions {
-  display: flex;
-  flex-direction: column;
-}
+
 
 /*=====================SERVICES STYLES END======================*/
 /*=====================BLOG guides STYLES START======================*/

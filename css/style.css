@@ -671,6 +671,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+/* .network-global > li{
+
+  box-shadow: 0px 30px 54px -6px rgb(245 56 56 / 55%);
+} */
 .network-global img {
   width: auto;
   height: 100%;
@@ -678,6 +682,32 @@ body {
 }
 /*=====================Network guides STYLES END======================*/
 /*=====================testimonials STYLES START======================*/
+.customers{
+padding-top: 25px;
+padding-bottom: 25px;
+}
+.customers-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 310px;
+}
+.customers-title{
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0B132A;
+  margin-bottom: 25px;
+}
+.customers-subtitle{
+  font-weight: 400;
+  font-size: 16px;
+line-height: 30px;
+text-align: center;
+color: #4F5665;
+margin-bottom: 60px;
+}
 
 /*=====================testimonials STYLES END======================*/
 /*=====================trending STYLES START======================*/

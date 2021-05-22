@@ -1,4 +1,4 @@
-const testimonialsSlider = new Swiper('.testimonials-slider', {
+const customersSlider = new Swiper('.customers-slider', {
 
   breakpoints: {
     768:{

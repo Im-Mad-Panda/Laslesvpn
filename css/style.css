@@ -682,32 +682,162 @@ body {
 }
 /*=====================Network guides STYLES END======================*/
 /*=====================testimonials STYLES START======================*/
-.customers{
-padding-top: 25px;
-padding-bottom: 25px;
+.customers {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
-.customers-content{
+.customers-content {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 0px 310px;
 }
-.customers-title{
+.customers-title {
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
   text-align: center;
-  color: #0B132A;
+  color: #0b132a;
   margin-bottom: 25px;
 }
-.customers-subtitle{
+.customers-subtitle {
   font-weight: 400;
   font-size: 16px;
-line-height: 30px;
-text-align: center;
-color: #4F5665;
-margin-bottom: 60px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+  margin-bottom: 60px;
 }
+.swiper-slide {
+  border: 2px solid #000000;
+  
+}
+.swiper-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.customer {
+  display: flex;
+  align-items: center;
+}
+.slider-img {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+.slider-customer {
+  display: flex;
+  flex-direction: column;
+}
+.customer-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+}
+.customer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4f5665;
+}
+.customer-link:hover {
+  text-decoration: underline;
+}
+.customer-text {
+  font-weight: 400;
+  width: 330px;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #0b132a;
+}
+
+.customers-slider .swiper-slider {
+  width: 400px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.customers-slider .swiper-slide.swiper-slide-active {
+  width: 400px;
+}
+.customers-slider .swiper-slide.swiper-slide-active::after {
+  display: none;
+}
+.swiper-content img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.slide-text {
+  width: 435px;
+}
+.slider-bullet {
+  display: inline-flex;
+  margin-right: 10px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+/* .slider-active-bullet {
+  width: 10px;
+  height: 10px;
+  background: #ff0000;
+}
+.slider-button-next {
+  content: "";
+  background: url("../img/arrow-right.svg") no-repeat 0 0 / cover;
+  width: 20px;
+  height: 14px;
+  display: inline-flex;
+  margin-left: 20px;
+}
+.slider-button-next:hover {
+  background: url("../img/arrow-left.svg") no-repeat 0 0 / cover;
+  transform: scaleX(-1);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.slider-button-prev {
+  content: "";
+  background: url("../img/arrow-right.svg") no-repeat 0 0 / cover;
+  transform: scaleX(-1);
+  width: 20px;
+  height: 14px;
+  display: inline-flex;
+  border-radius: 50%;
+}
+.slider-button-prev:hover {
+  content: "";
+  background: url("../img/arrow-left.svg") no-repeat 0 0 / cover;
+  transform: scaleX(+1);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.slider-modules {
+  margin: 50px 80px 60px 95px;
+  display: flex;
+  justify-content: space-between;
+}
+.slider-pagination {
+  display: flex;
+  align-items: center;
+}  */
 
 /*=====================testimonials STYLES END======================*/
 /*=====================trending STYLES START======================*/

@@ -2,15 +2,10 @@ const customersSlider = new Swiper('.customers-swiper', {
 
   breakpoints: {
     768:{
-  slidesPerView: 3,
+      slidesPerView: "auto",
         spaceBetween: 50,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        }
         }
       },
-
   navigation: {
     nextEl: '.arrow-left',
     prevEl: '.arrow-right',

@@ -420,7 +420,7 @@ body {
   right: -60px;
   bottom: -25px;
 }
-.header-btn-exp {
+.hero-btn-exp {
   font-weight: 700;
   padding: 18px 78px;
   font-size: 16px;
@@ -429,7 +429,7 @@ body {
   background: #f53838;
   border-radius: 10px;
 }
-.header-btn-exp:hover {
+.hero-btn-exp:hover {
   color: #000000;
   transition: 0.3s;
   box-shadow: 0px 30px 54px -6px rgb(245 56 56 / 55%);
@@ -437,7 +437,7 @@ body {
 /*=====================HERO STYLES END======================*/
 /*=====================statistics STYLES START======================*/
 .statistics {
-  padding-top: 130px;
+  padding-top: 85px;
   padding-bottom: 47px;
 }
 .statistics-section {
@@ -681,7 +681,7 @@ body {
   object-fit: cover;
 }
 /*=====================Network guides STYLES END======================*/
-/*=====================testimonials STYLES START======================*/
+/*=====================customers STYLES START======================*/
 .customers {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -771,7 +771,7 @@ body {
   padding: 30px;
   border: 2px solid #dddddd;
   border-radius: 10px;
-  margin-bottom:  60px;
+  margin-bottom: 60px;
 }
 .customers-swiper .swiper-slide:hover {
   border: 2px solid #f53838;
@@ -782,19 +782,23 @@ body {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #DDE0E4;
+  background-color: #dde0e4;
 }
 .slider-active-bullet {
   border-radius: 10px;
   width: 45px;
   height: 15px;
-  background: #F53838;
+  background: #f53838;
 }
-.slider-modules{
+.slider-modules {
   display: flex;
   justify-content: space-between;
 }
-.slider-btn{
+.slider-pagination {
+  display: flex;
+  align-items: center;
+}
+.slider-btn {
   margin-right: 150px;
 }
 .slider-button-prev {
@@ -806,7 +810,8 @@ body {
   border-radius: 50%;
 }
 .slider-button-prev:hover {
-  box-shadow: 0 0 10px #F53838;
+  box-shadow: 0 0 10px #f53838;
+  transition: 0.3s;
 }
 .slider-button-next {
   background: url("../img/left.svg") no-repeat 0 0 / cover;
@@ -818,13 +823,109 @@ body {
   margin-left: 20px;
 }
 .slider-button-next:hover {
-  box-shadow: 0 0 10px #F53838;
+  box-shadow: 0 0 10px #f53838;
+  transition: 0.3s;
 }
-/*=====================testimonials STYLES END======================*/
-/*=====================trending STYLES START======================*/
-
-/*=====================trending STYLES END======================*/
+/*=====================customers STYLES END======================*/
+/*=====================special-features START======================*/
+.special-features {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.special-features-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 58px 70px;
+  border-radius: 10px;
+  box-shadow: 0px 106px 114px 65px rgb(13 16 37 / 7%);
+}
+.special-features-title {
+  width: 370px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  color: #0b132a;
+}
+.special-features-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+/*=====================special-features END======================*/
 /*=====================FOOTER START======================*/
+.footer {
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  color: #212353;
+}
+.nav-footer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.footer-nav-company{
+  width: 340px;
+}
+.footer-text {
+  font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+margin-bottom: 30px;
+}
+.social-icons {
+  display: flex;
+  margin-bottom: 30px;
+}
+.social-icons li:nth-child(n + 2) {
+  margin-left: 20px;
+}
+.footer-icon > img {
+  width: auto;
+  height: 33px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.footer-icon > img:hover {
+  box-shadow: 0 0 10px #f53838;
+  transition: 0.3s;
+}
+.footer-data-company{
+  font-weight: 400;
+  font-size: 16px;
+line-height: 30px;
+color: #AFB5C0;
+}
+.footer-nav-links {
+  display: contents;
+}
+.footer-social{
+  font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #0B132A;
+margin-bottom: 20px;
+}
+.footer-navbar {
+  font-weight: 400;
+  font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+}
+.footer-navbar a:hover {
+  text-shadow: 0.2px 0.2px 0px, -0.2px -0.2px 0px;
+  transition: 0.3s;
+}
+.footer-navbar li {
+  margin-bottom: 10px;
+}
+
 
 /*=====================FOOTER END======================*/
 /* // XX-Large devices (larger desktops) */

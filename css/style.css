@@ -678,9 +678,16 @@ width: 17%;
 width: 100%;
 }
 .network-global img {
-  width: 100%;
+  width: 90%;
   height: 100%;
   object-fit: cover;
+ filter: grayscale(1);
+  opacity: 0.5;
+}
+.network-global img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+  transition: 0.3s;
 }
 /*=====================Network guides STYLES END======================*/
 /*=====================customers STYLES START======================*/
@@ -777,6 +784,7 @@ width: 100%;
 }
 .customers-swiper .swiper-slide:hover {
   border: 2px solid #f53838;
+  transition: 0.3s;
 }
 .slider-bullet {
   display: inline-flex;

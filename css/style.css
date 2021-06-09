@@ -433,6 +433,7 @@ body {
   color: #000000;
   transition: 0.3s;
   box-shadow: 0px 30px 54px -6px rgb(245 56 56 / 55%);
+cursor: pointer;
 }
 /*=====================HERO STYLES END======================*/
 /*=====================statistics STYLES START======================*/
@@ -614,7 +615,6 @@ body {
   text-align: center;
   color: #0b132a;
 }
-
 .plan-btn {
   padding: 13px 63px;
   font-weight: 700;
@@ -624,6 +624,7 @@ body {
   border: 2px solid #f53838;
   box-sizing: border-box;
   border-radius: 50px;
+  cursor: pointer;
 }
 .plan-btn:hover {
   color: #fff;
@@ -793,12 +794,14 @@ width: 100%;
   height: 15px;
   border-radius: 50%;
   background-color: #dde0e4;
+  transition: 0.3s;
 }
 .slider-active-bullet {
   border-radius: 10px;
   width: 45px;
   height: 15px;
   background: #f53838;
+  transition: 0.3s;
 }
 .slider-modules {
   display: flex;
@@ -822,6 +825,7 @@ width: 100%;
 .slider-button-prev:hover {
   box-shadow: 0 0 10px #f53838;
   transition: 0.3s;
+  cursor: pointer;
 }
 .slider-button-next {
   background: url("../img/left.svg") no-repeat 0 0 / cover;
@@ -835,6 +839,7 @@ width: 100%;
 .slider-button-next:hover {
   box-shadow: 0 0 10px #f53838;
   transition: 0.3s;
+  cursor: pointer;
 }
 /*=====================customers STYLES END======================*/
 /*=====================special-features START======================*/

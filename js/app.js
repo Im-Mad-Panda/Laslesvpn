@@ -6,6 +6,12 @@ const customersSlider = new Swiper('.customers-swiper', {
         spaceBetween: 50,
         }
       },
+      breakpoints: {
+        576:{
+          slidesPerView: "auto",
+            spaceBetween: 30,
+            }
+          },
   navigation: {
     nextEl: '.arrow-left',
     prevEl: '.arrow-right',

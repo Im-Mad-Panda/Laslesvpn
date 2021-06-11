@@ -952,18 +952,81 @@ color: #4F5665;
     max-width: 100%;
     padding: 0 15px;
   }
+  .hero-img {
+    width: 540px;
+    right: 20px;
+    bottom: 0px;
+}
 }
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
   .container {
     max-width: 960px;
   }
+  .logo {
+    margin-right: 50px;
+}
+.navbar > ul {
+    margin-right: 50px;
+}
+.header-btn-sign-up {
+    padding: 10px 28px;
+}
+.hero-content {
+  width: 410px;
+}
+.hero-img {
+  width: 480px;
+}
+.functions-img {
+  margin-right: 40px;
+}
+.plan-box {
+  padding: 80px 55px 50px 55px;
+}
+.network-img {
+  width: 920px;
+}
+.customers-content {
+  margin: 0px 256px;
+}
+.slider-btn {
+  margin-right: 80px;
+}
 }
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   .container {
     max-width: 720px;
   }
+  .navbar {
+    flex-direction: column;
+  }
+.logo {
+    margin-right: 0px;
+     margin-right: 0px;
+     margin-bottom: 15px;
+}
+.navbar > ul {
+    margin-right: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+}
+.header-btn-sign-in {
+  margin-bottom: 15px;
+}
+.header-btn-sign-up {
+  margin-left: 0px;
+}
+.hero-section {
+  flex-direction: column-reverse;
+}
+.hero-img {
+  position: static;
+  margin-bottom: 20px;
+}
+.hero-content {
+  width: 550px;
 }
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {

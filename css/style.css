@@ -789,6 +789,9 @@ body {
   border: 2px solid #f53838;
   transition: 0.3s;
 }
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  width: 200px;
+}
 .slider-bullet {
   display: inline-flex;
   margin-right: 23px;
@@ -813,8 +816,8 @@ body {
   display: flex;
   align-items: center;
 }
-.slider-btn {
-  margin-right: 150px;
+.slider-btn{
+  width: 200px;
 }
 .slider-button-prev {
   background: url("../img/left.svg") no-repeat 0 0 / cover;
@@ -823,6 +826,7 @@ body {
   height: 60px;
   display: inline-flex;
   border-radius: 50%;
+  margin-right: 20px;
 }
 .slider-button-prev:hover {
   box-shadow: 0 0 10px #f53838;
@@ -836,7 +840,6 @@ body {
   height: 60px;
   display: inline-flex;
   border-radius: 50%;
-  margin-left: 20px;
 }
 .slider-button-next:hover {
   box-shadow: 0 0 10px #f53838;
